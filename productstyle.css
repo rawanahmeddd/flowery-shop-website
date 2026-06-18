@@ -1,0 +1,163 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f5f5f5; 
+    line-height: 1.6; 
+} 
+ 
+nav { 
+    background-color: #2E8B57; 
+    padding: 15px 0; 
+    text-align: center; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+} 
+ 
+nav ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+nav ul li { 
+    display: inline; 
+} 
+ 
+nav ul li a { 
+    color: white; 
+    text-decoration: none; 
+    margin: 0 20px; 
+    font-weight: bold; 
+    font-size: 16px; 
+    padding: 8px 15px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+} 
+ 
+nav ul li a:hover { 
+    background-color: rgba(255, 255, 255, 0.2); 
+} 
+ 
+header { 
+    background-color: white; 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+} 
+ 
+#logo img { 
+    max-width: 150px; 
+    height: auto; 
+} 
+ 
+#search { 
+    flex-grow: 1; 
+    margin: 0 20px; 
+    text-align: center; 
+} 
+ 
+#search input[type="search"] { 
+    padding: 10px; 
+    width: 70%; 
+    max-width: 400px; 
+    border: 2px solid #ddd; 
+    border-radius: 4px; 
+    font-size: 16px; 
+} 
+ 
+#Go { 
+    background-color: #2E8B57; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    margin-left: 10px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-weight: bold; 
+} 
+ 
+#cart a { 
+    color: #2E8B57; 
+    text-decoration: none; 
+    font-weight: bold; 
+    margin-left: 10px; 
+} 
+ 
+#cart img { 
+    max-width: 40px; 
+    vertical-align: middle; 
+} 
+ 
+#wf { 
+    background-color: white; 
+    padding: 25px; 
+    margin: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+} 
+ 
+#leftform, #rightform { 
+    display: inline-block; 
+    margin: 10px 20px; 
+    padding: 15px; 
+    background-color: #f9f9f9; 
+    border-radius: 6px; 
+} 
+ 
+#leftform label, #rightform label { 
+    margin-right: 10px; 
+    font-weight: bold; 
+} 
+ 
+select { 
+    padding: 8px; 
+    border: 2px solid #ddd; 
+    border-radius: 4px; 
+    min-width: 150px; 
+} 
+ 
+#wf table { 
+    width: 100%; 
+    margin-top: 30px; 
+    border-spacing: 15px; 
+} 
+ 
+#wf table tr td { 
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1); 
+    vertical-align: top; 
+    text-align: center; 
+    border: 1px solid #eee; 
+    transition: transform 0.3s; 
+} 
+ 
+#wf table tr td:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15); 
+} 
+ 
+.price { 
+    color: #2E8B57; 
+    font-weight: bold; 
+    font-size: 22px; 
+    display: block; 
+    margin: 15px 0; 
+} 
+ 
+#wf a img { 
+    max-width: 70px; 
+    margin-top: 10px; 
+} 
+ 
+#wf h1, #wf h2, #wf h3 { 
+    color: #333; 
+    margin: 20px 0; 
+    text-align: center; 
+} 
